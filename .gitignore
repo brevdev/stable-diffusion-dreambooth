@@ -6,3 +6,9 @@ train.bat
 __pycache__
 */**/__pycache__
 logs
+nader
+regularization_images
+training_images
+latent_diffusion.egg-info
+model.ckpt
+src
