@@ -7,8 +7,8 @@ python "main.py" \
  --reg_data_root "regularization_images/person_ddim" \
  -n "project_name" \
  --gpus 0, \
- --data_root "./nader" \
- --max_training_steps 100 \
+ --data_root "nader" \
+ --max_training_steps 2000 \
  --class_word "person" \
- --token "samlhuillier" \
+ --token "naderkhalil" \
  --no-test
