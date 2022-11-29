@@ -31,6 +31,7 @@ git clone https://github.com/djbielejeski/Stable-Diffusion-Regularization-Images
 mkdir -p regularization_images/person_ddim
 mv -v Stable-Diffusion-Regularization-Images-person_ddim/person_ddim/*.* regularization_images/person_ddim
 pip install pyheif
+pip install piexif
 # pip install cudatoolkit==1.12.1
 
 ####################################################################################
