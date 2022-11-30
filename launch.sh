@@ -11,7 +11,7 @@ python "main.py" \
  -n "project_name" \
  --gpus 0, \
  --data_root $DATA_DIR \
- --max_training_steps 1500 \
+ --max_training_steps 2000 \
  --class_word "person" \
  --token "naderkhalil" \
  --no-test

@@ -5,8 +5,7 @@ gen_ref.bat
 train.bat
 __pycache__
 */**/__pycache__
-# logs
-nader
+logs
 regularization_images
 training_images
 latent_diffusion.egg-info

@@ -25,7 +25,7 @@ pip install -qq "ipywidgets>=7,<8"
 pip install huggingface_hub
 pip install ipywidgets==7.7.1
 pip install captionizer==1.0.1
-# wget https://brev-bucket-for-model-storage.s3.us-west-2.amazonaws.com/sd-v1-4.ckpt
+wget https://brev-bucket-for-model-storage.s3.us-west-2.amazonaws.com/sd-v1-4.ckpt
 git clone https://github.com/djbielejeski/Stable-Diffusion-Regularization-Images-person_ddim.git
 mkdir -p regularization_images/person_ddim
 mv -v Stable-Diffusion-Regularization-Images-person_ddim/person_ddim/*.* regularization_images/person_ddim
