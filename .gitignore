@@ -5,10 +5,14 @@ gen_ref.bat
 train.bat
 __pycache__
 */**/__pycache__
-logs
+# logs
 nader
 regularization_images
 training_images
 latent_diffusion.egg-info
 model.ckpt
 src
+Stable-Diffusion-Regularization-Images-person_ddim
+sd-v1-4.ckpt
+sd-v1-4.ckpt.1
+output-model.ckpt

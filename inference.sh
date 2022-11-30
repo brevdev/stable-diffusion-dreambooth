@@ -1,8 +1,4 @@
-# git clone https://github.com/CompVis/latent-diffusion.git
-# cd latent-diffusion
 pip install -e .
-# cd ..
-
 
 python scripts/stable_txt2img.py \
  --ddim_eta 0.0 \
@@ -11,4 +7,4 @@ python scripts/stable_txt2img.py \
  --scale 7.0 \
  --ddim_steps 50 \
  --ckpt "output-model.ckpt" \
- --prompt "naderkhalil person"
+ --prompt "naderkhalil person wearing sunglasses"
