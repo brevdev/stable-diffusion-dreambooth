@@ -10,5 +10,5 @@ python scripts/stable_txt2img.py \
  --n_iter 4 \
  --scale 7.0 \
  --ddim_steps 50 \
- --ckpt "logs/nader2022-11-28T22-50-09_project_name/checkpoints/last.ckpt" \
- --prompt "samlhuillier person"
+ --ckpt "output-model.ckpt" \
+ --prompt "naderkhalil person"
