@@ -6,6 +6,7 @@ conda init zsh
 conda init bash 
 eval "$(conda shell.bash hook)"
 conda activate base
+pip install setuptools==58.2.0
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
 pip install omegaconf
 pip install einops
